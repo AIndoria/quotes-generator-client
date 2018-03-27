@@ -1,0 +1,94 @@
+html, body{
+    height:100%;
+    background:rgb(68, 0, 68);
+    font-family:"Vesper Libre", serif;
+}
+a{
+    text-decoration:none;
+    font-weight:bolder;
+}
+.container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    height:100%;
+
+}
+.first-row{
+    flex-direction:row;
+    display:flex;
+    width:50%;
+    height:20%;
+    text-align:center;
+    align-items:center;
+
+}
+.quotebox{
+    border-radius:1%;
+    padding:10px;
+    margin:0 5px 0 0;
+    color:rgb(68, 0, 68);
+    background:gainsboro;
+    box-shadow: 1px 1px 2px darkslategrey;
+    border:1px dotted yellow;
+
+    display:flex;
+    height:100%;
+    flex-basis:75%;
+    justify-content:center;
+    align-items:center;
+
+ 
+}
+.buttons{
+    border-radius:1%;
+    padding:10px 0;
+    background:gainsboro;
+    box-shadow: 1px 1px 2px darkslategrey;
+    display:flex;
+    height:100%;
+    flex-basis:25%;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.button-twitter{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex:1;
+    background:skyblue;
+}
+.button-fb{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex:1;
+    background:darkblue;
+
+}
+.second-row{
+    margin-top:15px;
+    background:gainsboro;
+    color:rgb(68, 0, 68);
+    box-shadow: 1px 1px 2px darkslategrey;
+
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:50%;  
+}
+
+
+/* On-Hover */
+.quotebox:hover{
+    box-shadow: 2px 2px 4px darkslategrey;
+}
+.buttons:hover{
+    box-shadow: 2px 2px 4px darkslategrey;
+}
+.second-row:hover{
+    box-shadow: 2px 2px 4px darkslategrey;
+}
