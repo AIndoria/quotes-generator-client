@@ -23,48 +23,58 @@ a{
     text-align:center;
     align-items:center;
 
+
 }
 .quotebox{
     border-radius:1%;
-    padding:10px;
     margin:0 5px 0 0;
     color:rgb(68, 0, 68);
     background:gainsboro;
     box-shadow: 1px 1px 2px darkslategrey;
     border:1px dotted yellow;
-
+    flex:1;
     display:flex;
-    height:100%;
+    height:150px;
     flex-basis:75%;
     justify-content:center;
     align-items:center;
 
- 
+}
+.quote-text{
+    padding: 10px;
 }
 .buttons{
     border-radius:1%;
-    padding:10px 0;
     background:gainsboro;
     box-shadow: 1px 1px 2px darkslategrey;
     display:flex;
     height:100%;
-    flex-basis:25%;
+    flex:1;
     justify-content:center;
     align-items:center;
     flex-direction:column;
+    
 }
 .button-twitter{
+    border:none;
+    border-radius:1%;
     display:flex;
     align-items:center;
     justify-content:center;
     flex:1;
+    padding:5px;
+    color:black;
     background:skyblue;
 }
 .button-fb{
+    border:none;
+    padding:5px;
+    border-radius:1%;
     display:flex;
     align-items:center;
     justify-content:center;
     flex:1;
+    color:gainsboro;
     background:darkblue;
 
 }
@@ -72,13 +82,17 @@ a{
     margin-top:15px;
     background:gainsboro;
     color:rgb(68, 0, 68);
+    border-radius:1%;
     box-shadow: 1px 1px 2px darkslategrey;
 
 
     display:flex;
     justify-content:center;
     align-items:center;
-    width:50%;  
+    width:50%;
+}
+.about-text{
+    padding:10px;
 }
 
 
@@ -86,7 +100,10 @@ a{
 .quotebox:hover{
     box-shadow: 2px 2px 4px darkslategrey;
 }
-.buttons:hover{
+.button-fb:hover{
+    box-shadow: 2px 2px 4px darkslategrey;
+}
+.button-twitter:hover{
     box-shadow: 2px 2px 4px darkslategrey;
 }
 .second-row:hover{

@@ -1,5 +1,8 @@
+<!DOCTYPE html>
+
 <html>
     <head>
+        <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="css/styles.css">
         <link href="https://fonts.googleapis.com/css?family=Vesper+Libre" rel="stylesheet"> 
         <title>Random Quotes Generator</title>
@@ -8,11 +11,11 @@
         <div class="container">
             <div class="first-row">
                 <div class="quotebox">
-                    <div class="quote-text" id="quote">This is a random quote, courtesyof a random quote generator, but it hasn't been applied yet.</div>
+                    <div class="quote-text" id="quote"></div>
                     </div>
                     <div class="buttons">
-                        <div class="button-twitter">Share on twitter</div>
-                        <div class="button-fb">Share on Facebook</div>
+                        <a href=# id="link-twitter" onclick="tweet()"><div class="button-twitter">Share on twitter</div></a>
+                        <div class="button-fb" onclick="soon()">Facebook(Soon)</div>
                     </div>
             </div>
             <div class="second-row">
@@ -20,5 +23,6 @@
             </div>
         </div>
         <script src="js/script.js"></script>
+       <!-- <script src="js/twitter.js"></script>-->
     </body>
 </html>
